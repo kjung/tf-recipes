@@ -1,0 +1,17 @@
+*.pyc
+
+# Don't include any data ever.  
+*.pkl
+*.txt
+*.txt.gz
+
+# Tensorflow summary files, etc.  
+model_*
+events.*
+
+# Emacs temp files. 
+*~
+*#
+
+# Don't include notebook checkpoints
+.ipynb_checkpoints/*
